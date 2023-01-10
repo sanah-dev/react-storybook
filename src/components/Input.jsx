@@ -24,7 +24,7 @@ Input.propTypes = {
 };
 
 Input.defaultProps = {
-  label: null,
+  label: '테스트',
   type: 'text',
   required: false,
   state: 'approve',

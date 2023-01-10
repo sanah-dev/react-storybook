@@ -1,0 +1,40 @@
+@import '../App.css';
+
+ul {
+  margin-top: 12px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.list-wrap {
+  width: 280px;
+  margin: 0 auto;
+  padding: 12px;
+  border: 1px solid #666;
+  box-sizing: border-box;
+}
+
+.title-bold {
+  font-weight: 700;
+}
+.list-circle li::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  border-radius: 4px;
+  background-color: rgb(137, 182, 255);
+}
+.list-square li::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  background-color: rgb(223, 155, 255);
+}
