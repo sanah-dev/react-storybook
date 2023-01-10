@@ -18,7 +18,7 @@ export const List = ({type, title}) => {
 
 List.propTypes = {
   type: PropTypes.oneOf(['square', 'circle']).isRequired,
-  title: PropTypes.string,
+  title: PropTypes.bool,
 };
 
 List.defaultProps = {

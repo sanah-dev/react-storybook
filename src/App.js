@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import {Input} from './components/Input';
 import {List} from './components/List';
+import {DataList} from './components/DataList';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         borderColor="red"
       />
       <List></List>
+      <DataList />
     </div>
   );
 }
