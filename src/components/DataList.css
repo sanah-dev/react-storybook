@@ -1,0 +1,133 @@
+@import '../App.css';
+
+.wrap {
+  display: inline-block;
+  padding: 32px;
+  border: 1px solid #333;
+}
+.title {
+  font-size: 20px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #333;
+}
+
+/* FORM */
+.form-inp {
+  display: flex;
+  flex-direction: row;
+}
+.addr-input-area {
+  /* width: 100%; */
+  width: 30%;
+  height: 48px;
+  padding: 12px;
+  border: 1px solid #c9ccd2;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #18191c;
+}
+.addr-input-area + .addr-input-area {
+  width: 70%;
+  margin: 0 4px;
+}
+.addr-submit {
+  width: 60px;
+  min-width: 60px;
+  border: none;
+  border-radius: 4px;
+  background: none;
+  background-color: rgba(23, 114, 248, 0.1);
+  color: #1772f8;
+  cursor: pointer;
+}
+/* .icon-submit {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('https://icons.veryicon.com/png/o/miscellaneous/common-icons-2/add-74.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+} */
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+/* 리스트 */
+.wallet-addr-list {
+  max-width: 480px;
+}
+
+/* 리스트 > 헤더 */
+.wallet-addr-item-header {
+  display: flex;
+  background-color: #f8f8f9;
+  border-bottom: 1px solid #e4e5e8;
+}
+.wallet-addr-item-header p {
+  padding: 16px;
+  color: #79818f;
+  font-size: 12px;
+  text-align: left;
+}
+.wallet-addr-item-header p:nth-child(1) {
+  width: 100px;
+}
+.wallet-addr-item-header p:nth-child(2) {
+  width: 340px;
+}
+.wallet-addr-item-header p:nth-child(3) {
+  width: 40px;
+  padding: 0;
+  padding-right: 16px;
+}
+
+/* 리스트 > 컨텐츠 */
+.wallet-addr-item {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid #e4e5e8;
+}
+.wallet-addr-item p {
+  padding: 16px;
+  color: #484d55;
+  font-size: 12px;
+  text-align: left;
+}
+.wallet-addr-item p:nth-child(1) {
+  width: 100px;
+}
+.wallet-addr-item p:nth-child(2) {
+  width: 340px;
+}
+.wallet-addr-item p:nth-child(3) {
+  width: 40px;
+  padding: 0;
+  padding-left: 4px;
+}
+.wallet-addr-item .asset {
+  text-transform: uppercase;
+  word-break: break-all;
+}
+.wallet-addr-item .address {
+  word-break: break-all;
+}
+.btn-delete {
+  width: 14px;
+  height: 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.icon-delete {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url('https://www.svgrepo.com/show/132300/trash-can-with-cover-from-side-view.svg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}

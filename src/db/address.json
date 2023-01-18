@@ -1,0 +1,15 @@
+[
+  {"id": 1, "asset": "xrp", "address": "rNZH8FPhgXa1MAYY11MQEBfWScBF4PVV24"},
+  {"id": 2, "asset": "btc", "address": "3Kj7ygvnKvUEmengY1Y3H5hQqTDtX9sa23"},
+  {
+    "id": 3,
+    "asset": "klay",
+    "address": "0xf30e68f5f920a2300a613327550c1f366265c53b"
+  },
+  {
+    "id": 4,
+    "asset": "etc",
+    "address": "0x1ABf0601379f60CeAaA36314672c76Df3EA61206"
+  },
+  {"id": 5, "asset": "xtz", "address": "tz1QtsmUTg1uvkaWmk4qMfZh9S4VWZg95tdh"}
+]
