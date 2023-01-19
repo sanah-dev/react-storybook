@@ -4,6 +4,7 @@ import {List} from './components/List';
 // import {DataList} from './components/DataList';
 import {AddressList} from './components/AddressList';
 import {Select} from './components/Select';
+import {Check} from './components/Check'
 
 function App() {
   return (
@@ -20,14 +21,15 @@ function App() {
       <List />
 
     */}
-      <AddressList
+      {/* <AddressList
         label="가상자산 주소 추가"
         listHeaderCol1="가상자산"
         listHeaderCol2="주소"
         assetPlaceholder="예시: BTC"
         addressPlaceholder="예시: 3Kj7ygvnKvUEmengY1Y3H5hQqTDtX9sa23"
       />
-      <Select selected="banana" />
+      <Select selected="banana" /> */}
+      <Check />
     </div>
   );
 }
